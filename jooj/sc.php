@@ -1,7 +1,4 @@
 <?php
-
-
-
 ##ip##
 function getUserIP()
 {
@@ -21,30 +18,20 @@ function getUserIP()
     {
         $ip = $remote;
     }
-
     return $ip;
 }
-
-
 $ip2 = getUserIP();
-
 #country###
 $details = json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=" . $ip2 . ""));
 if ($details && $details->geoplugin_countryName != null) {
     $countryname = $details->geoplugin_countryName;
 }
-
     $cn = $countryname;
-####
-
-
 #################################################
 #       SYSTEM & BROWSER                        #
 #################################################
 
 $user_agent     =   $_SERVER['HTTP_USER_AGENT'];
-
-##OS##
 
 function getOS() { 
     global $user_agent;
@@ -82,8 +69,7 @@ function getOS() {
     return $os_platform;
 }
 
-$os        =   getOS();
-
+$os = getOS();
 
 ##BROWSER##
 
@@ -109,8 +95,6 @@ function getBrowser() {
     return $browser;
 }
 
-$br        =   getBrowser();
-
-
+$br = getBrowser();
 
 ?>

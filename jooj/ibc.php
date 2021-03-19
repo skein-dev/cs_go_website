@@ -47,16 +47,15 @@ return $ResultInfo;
 $CountryData = GetIpInfoFrmIpinfodbApi(GetIp());
 $AuthCountry = array('fr', 'ma', 'th'); // hna zid blad li bghiti
 
-
 if(!in_array(strtolower($CountryData['CountryCodeMin']),$AuthCountry)){
-header("HTTP/1.0 404 Not Found");
-header("Status: 404 Not Found");
-echo '<html><head>
-<title>Not Found 404</title>
-</head><body>
-<h1>Not Found 404</h1>
-<p>You are connected from a remote location.</p>
-</body></html>';
+	header("HTTP/1.0 404 Not Found");
+	header("Status: 404 Not Found");
+	echo '<html><head>
+	<title>Not Found 404</title>
+	</head><body>
+	<h1>Not Found 404</h1>
+	<p>You are connected from a remote location.</p>
+	</body></html>';
 exit;
 }
 ?>
