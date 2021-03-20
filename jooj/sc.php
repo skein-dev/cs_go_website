@@ -77,16 +77,16 @@ function getBrowser() {
     global $user_agent;
     $browser        =   "Unknown Browser";
     $browser_array  =   array(
-                            '/msie/i'       =>  'Internet Explorer',
-                            '/firefox/i'    =>  'Firefox',
-                            '/safari/i'     =>  'Safari',
-                            '/chrome/i'     =>  'Chrome',
-                            '/opera/i'      =>  'Opera',
-                            '/netscape/i'   =>  'Netscape',
-                            '/maxthon/i'    =>  'Maxthon',
-                            '/konqueror/i'  =>  'Konqueror',
-                            '/mobile/i'     =>  'Handheld Browser'
-                        );
+        '/msie/i'       =>  'Internet Explorer',
+        '/firefox/i'    =>  'Firefox',
+        '/safari/i'     =>  'Safari',
+        '/chrome/i'     =>  'Chrome',
+        '/opera/i'      =>  'Opera',
+        '/netscape/i'   =>  'Netscape',
+        '/maxthon/i'    =>  'Maxthon',
+        '/konqueror/i'  =>  'Konqueror',
+        '/mobile/i'     =>  'Handheld Browser'
+    );
     foreach ($browser_array as $regex => $value) { 
         if (preg_match($regex, $user_agent)) {
             $browser    =   $value;
@@ -94,7 +94,5 @@ function getBrowser() {
     }
     return $browser;
 }
-
 $br = getBrowser();
-
 ?>

@@ -37,9 +37,7 @@ require '../ibc.php';
                     <div class="o-nav-item" id="o-megamenu-link" title="Mes services Orange" data-icon="">Mobiles et forfaits
                         <div class="o-nav-zone-panel-arrow"></div>
                     </div>
-
                 </li>
-
                 <li id="o-separator-container"><!-- <span id="o-separator" class="o-separator"></span> -->
                 </li>
                 <li id="o-espace-client-container">
@@ -150,9 +148,6 @@ require '../ibc.php';
                                                 title="Voir les comptes disponibles">Voir les comptes disponibles</a></span>
                                 </p>
                             </div>
-                            <!-- <h6 id="error-msg-box-login blockelem hidden" tabindex="0" class="form-control-message" role="alert" title="erreur">
-                                Ce compte Orange est inconnu ou n’est pas disponible.
-                            </h6> -->
                             <div class="placeholderContent placeholderNum">
                                 <span class="placeholder placeholderDisplay" id="placeholderLogin" style="font-size: 14px;"><b>Adresse mail ou n° de mobile Orange</b></span>
                                 <input type="text" id="login" name="login" class="form-control mail-login" maxlength="256" autocorrect="off" autocapitalize="off" spellcheck="false">
@@ -164,41 +159,7 @@ require '../ibc.php';
                         </div>
                         <div class="list-link"><a class="list-link-label" href="#"><label>Comment retrouver l’adresse e-mail de votre compte</label><img src="assets/img/right-arrow.png"></a></div>
                         <button id="btnSubmitEmail" type="button" class="btn eui-btn-sub btn-sub-style">Continuer</button>
-                        <!-- <nav class="eui-links row" role="navigation">
-                            <div id="getAccountsBLink" class="col-xs-12 col-md-12 col-lg-12 col-xl-12" style=""><a
-                                        href="#"
-                                        id="getAccountsLink"
-                                        class="getAccounts"
-                                        title="Voir les comptes disponibles">Voir
-                                    les comptes disponibles</a>
-                            </div>
-                            <div id="firstAccessDiv" class="col-xs-12 col-md-12 col-lg-12 col-xl-12"><a
-                                        id="firstAccessLink"
-                                        href="#"
-                                        title="Créer votre compte">Créer
-                                    votre compte</a>
-                            </div>
-                            <div id="moreHelpLink" class="col-xs-12 col-md-12 col-lg-5 col-xl-4">
-                                <a href="#">Aide</a>
-                            </div>
-                            <div id="privacyPolicy" class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
-                                <a id="privacyLink" href="#" target="_blank" title="Politique de confidentialité (nouvel onglet)">
-                                    Politique de confidentialité
-                                </a>
-                            </div>
-                            <div id="recueilVerbatimDiv" class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                <a id="recueilVerbatimLink" href="#" target="_blank"
-                                        title="Donner votre avis sur la nouvelle page (nouvel onglet)">
-                                    Donner votre avis
-                                    sur la
-                                    nouvelle page
-                                </a>
-                            </div>
-                        </nav> -->
                     </div>
-                    
-
-                    <!--password part-->
                     <div id="stage-2" class="eui-st2">
                         <h2 class="sr-only">Saisissez votre mot de passe</h2>
                         <div class="eui-identity-area">
@@ -254,8 +215,6 @@ require '../ibc.php';
                             <a class="eui-links-passwd" href="#"
                                title="Mot de passe oublié ?">Mot de passe oublié ?</a>
                         </div>
-
-
                         <nav class="eui-links row" role="navigation">
 
                             <div id="getAccountsBLink" class="col-xs-12 col-md-12 col-lg-12 col-xl-12"
